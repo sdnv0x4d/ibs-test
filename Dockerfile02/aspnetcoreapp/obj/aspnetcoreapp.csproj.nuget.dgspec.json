@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "restore": {
+    "/src/aspnetcoreapp.csproj": {}
+  },
+  "projects": {
+    "/src/aspnetcoreapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/src/aspnetcoreapp.csproj",
+        "projectName": "aspnetcoreapp",
+        "projectPath": "/src/aspnetcoreapp.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/src/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net60"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {}
+      }
+    }
+  }
+}
