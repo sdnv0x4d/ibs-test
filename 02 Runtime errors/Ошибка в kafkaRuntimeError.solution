@@ -1,0 +1,2 @@
+Ошибка в резолвинге DNS-имени efi-cluster-kafka-bootsSADtrap в bootstrap.servers
+Если, условно, приложение собирается с помощью docker compose - мы должны убедиться, что имя сервиса efi-cluster-kafka-bootsSADtrap совпадает в docker-compose.yml и в bootstrap.servers
