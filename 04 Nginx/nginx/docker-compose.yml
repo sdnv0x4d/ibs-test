@@ -1,0 +1,27 @@
+version: "3.3"
+services:
+  nginx-reverse:
+     build: .
+     restart: always
+     hostname: nginx-reverse
+     container_name: nginx-reverse
+     tty: true
+     ports:
+        - "443:443"
+     environment:
+        - TZ=Asia/Yekaterinburg
+     volumes:
+        - nginx-cfg:/etc/nginx
+     networks:
+       reverse_proxy_net:
+         ipv4_address: 172.0.0.2
+
+networks:
+  reverse_proxy_net:
+    external: true
+
+volumes:
+  nginx-cfg:
+    external: true
+  nginx-ssl:
+    external: true
