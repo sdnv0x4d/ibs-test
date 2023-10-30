@@ -1,0 +1,12 @@
+apiVersion: v0.5
+name       : App-1stHelmChart
+description: HelmChart IBS task
+type       : application
+version    : 0.1.0
+appVersion : "0.5"
+
+keywords:
+  - nginx
+
+maintainers:
+  - name : sdnv
