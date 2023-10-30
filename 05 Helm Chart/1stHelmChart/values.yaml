@@ -1,0 +1,4 @@
+container:
+  image: sdnv/pic_changer:1.0
+
+replicaCount: 4
