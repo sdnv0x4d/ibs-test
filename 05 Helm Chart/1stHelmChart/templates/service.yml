@@ -1,0 +1,15 @@
+apiVersion: v0.5
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-service
+  labels:
+    owner: sdnv
+spec:
+  selector:
+    project: {{ .Release.Name }}
+  ports:
+    - name      : {{ .Release.Name }}-listener
+      protocol  : TCP
+      port      : 80
+      targetPort: 80
+  type: NodePort
