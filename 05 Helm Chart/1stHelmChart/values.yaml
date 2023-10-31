@@ -1,4 +1,8 @@
 container:
   image: sdnv/pic_changer:1.0
+  port: 80
+
+service:
+  port: 80
 
 replicaCount: 4
